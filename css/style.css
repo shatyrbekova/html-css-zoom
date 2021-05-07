@@ -5,7 +5,7 @@
 }
 
 .container-crucial{
-    height: 100vh;
+    /* height: 100vh; */
     background-color: black;
     color:white;
     display: flex;
@@ -25,18 +25,17 @@
 .container-img{
     display:flex;
     flex-wrap:wrap;
-    justify-content: center;
-    /* flex-grow: 1; */
+    justify-content: center;  
 }
 
+.img img{
+    width: 100%;
+}
 .img {  
     width:200px;
     height:150px;
-    margin: 40px 20px;
+    margin: 50px 5px;
     border: 2px black solid;
-
-
-   
 }
 
 nav{
@@ -56,15 +55,25 @@ nav ul{
 
 nav ul li{
     display:flex;
-    padding: 18px 20px;
+    padding: 18px 10px;
 }
+
 li{
     flex-direction: column;
     align-items: center;
+    display: flex;
 }
 
 ul li:only-child {
     color:red;
     background-color: #555;
+    height: 80px;
+    padding:30px;
+}
+
+.freccia{
+     justify-content: flex-end;
+     font-size:16px;
+     font-weight: bold;
 }
 
