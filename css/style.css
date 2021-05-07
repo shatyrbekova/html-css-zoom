@@ -24,17 +24,17 @@
 
 .container-img{
     display:flex;
-    /* flex-direction: column; */
     flex-wrap:wrap;
     justify-content: center;
-    flex-grow: 1;
+    /* flex-grow: 1; */
 }
 
 .img {  
     width:200px;
     height:150px;
-    margin: 40px 15px;
-    border: 1px black solid;
+    margin: 40px 20px;
+    border: 2px black solid;
+
 
    
 }
