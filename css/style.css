@@ -12,6 +12,16 @@
     flex-direction: column;
 }
 
+.speaker-view{
+    height:25px;
+    display: flex;
+    justify-content: flex-end;
+}
+.icons{
+    display: flex;
+    background-color: #555; */
+}
+
 .container-img{
     display:flex;
     /* flex-direction: column; */
@@ -31,7 +41,7 @@
 
 nav{
     height:80px;
-    background-color: darkslategray;
+    background-color: #333;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -48,8 +58,13 @@ nav ul li{
     display:flex;
     padding: 18px 20px;
 }
+li{
+    flex-direction: column;
+    align-items: center;
+}
 
 ul li:only-child {
     color:red;
+    background-color: #555;
 }
 
