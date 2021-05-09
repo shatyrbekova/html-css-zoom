@@ -13,18 +13,27 @@
 }
 
 .speaker-view{
-    height:25px;
+    height:30px;
     display: flex;
     justify-content: flex-end;
-}
-.icons{
-    display: flex;
-    background-color: #555; */
-    width:60px;
-    border-radius: 20px;
-    
+    text-align:  center;
+    line-height: 30px;
+   
 }
 
+.icon-1{
+    width: 130px;
+    margin-right: 5px;
+}
+
+.icon-1, .expand{
+    background-color: #555;
+    border-radius: 10px;
+}
+
+.expand{
+    width:30px;
+}
 
 .container-img{
     margin-top: 50px;
@@ -36,10 +45,8 @@
 .img img{
     width: 100%;
 }
+
 .img {  
-    /* width:200px;
-    height:150px; */
-    /* margin: 50px 5px; */
     border: 2px black solid;
 }
 
