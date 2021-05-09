@@ -20,9 +20,14 @@
 .icons{
     display: flex;
     background-color: #555; */
+    width:60px;
+    border-radius: 20px;
+    
 }
 
+
 .container-img{
+    margin-top: 50px;
     display:flex;
     flex-wrap:wrap;
     justify-content: center;  
@@ -32,13 +37,14 @@
     width: 100%;
 }
 .img {  
-    width:200px;
-    height:150px;
-    margin: 50px 5px;
+    /* width:200px;
+    height:150px; */
+    /* margin: 50px 5px; */
     border: 2px black solid;
 }
 
 nav{
+    margin-top: 50px;
     height:80px;
     background-color: #333;
     display: flex;
